@@ -37,7 +37,7 @@ export default function Home() {
   useEffect(() => {
     const isOnboarded = localStorage.getItem('isOnboarded');
     if (!isOnboarded) {
-      router.push('/splash');
+      router.push('/welcome');
     }
   }, [router]);
 
