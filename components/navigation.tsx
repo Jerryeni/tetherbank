@@ -12,7 +12,7 @@ import { GenericModal } from './ui/generic-modal';
 const navigation = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Investment', href: '/investment', icon: Wallet },
-  { name: '', href: '/referral', icon: "/icon2.svg" }, // Center item (Bigger)
+  { name: '', href: '/wallet', icon: "/icon2.svg" }, // Center item (Bigger)
   { name: 'History', href: '/history', icon: History },
 ];
 

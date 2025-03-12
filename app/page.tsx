@@ -67,11 +67,11 @@ export default function Home() {
 
       {/* Investment CTA */}
       <div className="bg-black text-card rounded-xl p-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-4">
           <p className="text-xs">Grab a new plan, or upgrade before slots are full</p>
           <Link href="/investment">
-            <Button className="bg-primary-foreground hover:bg-yellow-600 font-normal text-black text-sm px-3 py-1 h-auto rounded-full">
-              Invest now
+            <Button className="bg-primary-foreground text-xs hover:bg-yellow-600 font-light text-secondary px-3 py-1 h-auto rounded-full">
+              Upgrade now
             </Button>
           </Link>
         </div>
