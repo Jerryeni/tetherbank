@@ -19,7 +19,7 @@ export default function Welcome() {
       </div>
 
       <div className='flex items-center gap-2 p-4 rounded-full bg-[#AABFF412] mb-4 text-green-500'>
-        <Image src="/vector.svg" alt='logo' width={100} height={100} className='w-4 h-4 mx-auto' />
+        <Image src="/Vector.svg" alt='logo' width={100} height={100} className='w-4 h-4 mx-auto' />
         UPLINE ID: 12345678
       </div>
       <div className="px-4 pb-8 w-[80%] mx-auto">
